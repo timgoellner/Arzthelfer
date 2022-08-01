@@ -1,0 +1,184 @@
+{
+    "env": {
+        "token": "",
+        "prefix": "!",
+        "cogs": [
+            "extension.events.ready",
+            "extension.events.log_commands",
+            "extension.commands.kick",
+            "extension.commands.ban",
+            "extension.commands.unban",
+            "extension.events.presence",
+            "extension.commands.mute",
+            "extension.commands.unmute",
+            "extension.commands.news",
+            "extension.commands.warn",
+            "extension.commands.unwarn",
+            "extension.commands.warnlist",
+            "extension.commands.set_money",
+            "extension.commands.money",
+            "extension.commands.act",
+            "extension.commands.roulette",
+            "extension.commands.work",
+            "extension.events.fix_work",
+            "extension.events.spam_clear",
+            "extension.events.spam_detect",
+            "extension.commands.logout",
+            "extension.commands.pay",
+            "extension.commands.items",
+            "extension.commands.join",
+            "extension.commands.play",
+            "extension.commands.pause",
+            "extension.commands.resume",
+            "extension.commands.buy",
+            "extension.commands.remove_item",
+            "extension.commands.collect",
+            "extension.events.reset_collect",
+            "extension.commands.answer",
+            "extension.events.auto_answer",
+            "extension.commands.tempmute",
+            "extension.commands.bad_word",
+            "extension.events.bad_word_detection",
+            "extension.commands.stocks",
+            "extension.commands.stock",
+            "extension.commands.invest",
+            "extension.commands.coins",
+            "extension.commands.sell",
+            "extension.commands.help",
+            "extension.commands.data",
+            "extension.commands.exchange",
+            "extension.commands.radio",
+            "extension.events.verify",
+            "extension.commands.quiz",
+            "extension.commands.delete",
+            "extension.commands.rob",
+            "extension.events.reset_rob"
+        ]
+    },
+    "texts": {
+        "presence": "Example presence",
+        "news": "Example News"
+    },
+    "moderation": {
+        "mute_role": 1111111111111111,
+        "warns": {}
+    },
+    "economy": {
+        "collect_channel": 1111111111111111,
+        "money": {},
+        "work": {},
+        "rob": {},
+        "items": {
+            "vip": {
+                "price": 10000,
+                "money": 500,
+                "role": 1111111111111111,
+                "users": [],
+                "collect": {}
+            },
+            "mvp": {
+                "price": 25000,
+                "money": 1000,
+                "role": 1111111111111111,
+                "users": [],
+                "collect": {}
+            },
+            "supreme": {
+                "price": 50000,
+                "money": 2000,
+                "role": 1111111111111111,
+                "users": [],
+                "collect": {}
+            },
+            "titan": {
+                "price": 75000,
+                "money": 3000,
+                "role": 1111111111111111,
+                "users": [],
+                "collect": {}
+            },
+            "elite": {
+                "price": 100000,
+                "money": 5000,
+                "role": 1111111111111111,
+                "users": [],
+                "collect": {}
+            },
+            "rich": {
+                "price": 1000000,
+                "money": 0,
+                "role": 1111111111111111,
+                "users": [],
+                "collect": {}
+            }
+        },
+        "coins": {}
+    },
+    "answer": {},
+    "bad_words": [],
+    "verify": {},
+    "quiz": {
+        "suggest_channel": 1111111111111111,
+        "quizes": {}
+    },
+    "help": {
+        "generell": [
+            "help",
+            "news"
+        ],
+        "fun": [
+            "act [member] <nachricht>",
+            "answer ['create','remove','list'] <nachricht> <antwort>",
+            "quiz",
+            "quizes",
+            "suggest_quiz <question>"
+        ],
+        "admin": [
+            "bad_word ['add','remove','list'] <word>",
+            "logout",
+            "remove_item [member] <item>",
+            "set_money [member] ('+','-')[money]",
+            "data"
+        ],
+        "moderation": [
+            "ban [member] <grund>",
+            "kick [member] <grund>",
+            "mute [member] <grund>",
+            "tempmute [member] [duration] <grund>",
+            "unban <name#hash>",
+            "unmute [member]",
+            "unwarn [member]",
+            "warn [member] <grund>",
+            "warnlist [member]",
+            "delete (messages)"
+        ],
+        "economy": [
+            "buy <item>",
+            "collect",
+            "items",
+            "money (member)",
+            "pay [member] [money]",
+            "roulette ['red','black',<number>] [bid]",
+            "work",
+            "rob [member]"
+        ],
+        "coins": [
+            "coins",
+            "invest <coin> (count)",
+            "sell <coin> (count)",
+            "stock <coin>",
+            "stocks [number]"
+        ],
+        "sound": [
+            "join",
+            "leave",
+            "pause",
+            "play <link, name>",
+            "resume",
+            "stop",
+            "skip",
+            "clear",
+            "radio ('1live','wdr2','wdr5','iloveradio','schlagerparadies')"
+        ]
+    }
+}
