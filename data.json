@@ -158,12 +158,13 @@
             "items",
             "money (member)",
             "pay [member] [money]",
-            "roulette ['red','black',<number>] [bid]",
+            "roulette ['red','black',<number>] [bid,'all']",
             "work",
-            "rob [member]"
+            "rob [member]",
+            "blackjack [bid,'all']"
         ],
         "coins": [
-            "coins",
+            "coins (member)",
             "invest <coin> (count)",
             "sell <coin> (count)",
             "stock <coin>",
