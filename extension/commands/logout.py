@@ -11,7 +11,7 @@ class logout(commands.Cog):
     @commands.command()
     async def logout(self, ctx):
         try:
-            if not ctx.author.id in [695231432989343836,523239444053098499]:
+            if not ctx.author.id in [1111111111111111]:
                 await ctx.channel.send("```🔐Du hast keine Berechtigungen für diesen Befehl```")
                 return
 
