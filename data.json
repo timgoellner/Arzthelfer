@@ -52,7 +52,9 @@
             "extension.commands.quiz",
             "extension.commands.delete",
             "extension.commands.rob",
-            "extension.events.reset_rob"
+            "extension.events.reset_rob",
+            "extension.commands.xp",
+            "extension.events.xp_add"
         ]
     },
     "texts": {
